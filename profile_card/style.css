@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+.card-box-f{
+    width: 350px;
+}
+.card-box{
+    padding: 30px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.profile-image{
+    width: 128px;
+    border-radius: 100%;
+    background-color: beige;
+    padding: 8px;
+}
+.card-box h2{
+    color: #574a4a;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+.Occupation{
+    background-color:rgb(180, 162, 139);
+    color: white;
+    padding: 3px;
+    font-size:medium;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
+}
+.card-box p{
+    margin-top: 25px;
+    text-align:center;
+    color: #574a4a;
+}
+.card-box span{
+    margin-top: 15px;
+}
+.contact-info{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #574a4a;
+}
